@@ -37,6 +37,25 @@ public class Carro {
 		super();
 		this.motor = motor;
 	}
+	public CarroStatus darIgnicao(Chave chave) {
+		if(chave != null && montadora == chave.getMontadora()) {
+			return new CarroStatus("Carro Ligado!! "+motor);
+		}else if(chave == null) {
+			return new CarroStatus("Carro desligado está sem a chave!! "+motor);
+		}else if( montadora != chave.getMontadora()) {
+			return new CarroStatus("Chave não é compativel com o Modelo do Carro "+motor);
+		}
+		
+		return null;
+		
+	}
+	@Override
+	public String toString() {
+		return "Carro [tipo=" + tipo + ", color=" + color + ", motor=" + motor + ", montadora=" + montadora + "]";
+	}
+	
+	
+	
 	
 	
 	

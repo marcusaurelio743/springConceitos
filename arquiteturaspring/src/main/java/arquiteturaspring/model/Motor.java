@@ -49,4 +49,12 @@ public class Motor {
 		this.tipoMotor = tipoMotor;
 	}
 
+	@Override
+	public String toString() {
+		return "Motor [modelo=" + modelo + ", cavalo=" + cavalo + ", cilindro=" + cilindro + ", litragem=" + litragem
+				+ ", tipoMotor=" + tipoMotor + "]";
+	}
+	
+	
+
 }
