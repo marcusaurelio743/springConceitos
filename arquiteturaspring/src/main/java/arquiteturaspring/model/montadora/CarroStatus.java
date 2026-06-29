@@ -1,4 +1,4 @@
-package arquiteturaspring.model;
+package arquiteturaspring.model.montadora;
 
 public class CarroStatus {
 	private String mensagem;

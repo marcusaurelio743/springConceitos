@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import arquiteturaspring.model.Carro;
-import arquiteturaspring.model.CarroStatus;
-import arquiteturaspring.model.Chave;
-import arquiteturaspring.model.Motor;
-import arquiteturaspring.model.Santana;
+import arquiteturaspring.model.montadora.Carro;
+import arquiteturaspring.model.montadora.CarroStatus;
+import arquiteturaspring.model.montadora.Chave;
+import arquiteturaspring.model.montadora.Motor;
+import arquiteturaspring.model.montadora.Santana;
 
 @RestController
 @RequestMapping("/carros")

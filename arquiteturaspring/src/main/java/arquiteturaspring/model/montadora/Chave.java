@@ -1,4 +1,4 @@
-package arquiteturaspring.model;
+package arquiteturaspring.model.montadora;
 
 import arquiteturaspring.enuns.Montadora;
 

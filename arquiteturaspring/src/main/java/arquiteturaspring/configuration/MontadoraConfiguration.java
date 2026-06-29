@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import arquiteturaspring.enuns.TipoMotor;
-import arquiteturaspring.model.Motor;
+import arquiteturaspring.model.montadora.Motor;
 
 @Configuration
 public class MontadoraConfiguration {
