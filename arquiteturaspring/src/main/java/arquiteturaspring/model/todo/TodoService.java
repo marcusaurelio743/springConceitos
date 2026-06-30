@@ -13,4 +13,14 @@ public class TodoService {
 	public TodoEntity salvar(TodoEntity novoTodo) {
 		return todoRepository.save(novoTodo);
 	}
+
+	public TodoEntity buscaPorId(Long id) {
+		return todoRepository.findById(id).get();
+	}
+
+	public TodoEntity atualizar(Long id, TodoEntity obj) {
+		obj.setId(id);
+		
+		return todoRepository.save(obj);
+	}
 }
